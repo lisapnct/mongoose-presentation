@@ -120,7 +120,16 @@ h3 {
 table {
   border-collapse: collapse;
   margin: 100px auto;
-  
+}
+
+#goals{
+  background-image: url('https://www.tributemedia.com/hs-fs/hubfs/primary%20objective%20target.jpg?width=1860&name=primary%20objective%20target.jpg');
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 50px;
+  position: relative;
 }
 
 th, td {
@@ -128,6 +137,22 @@ th, td {
   padding: 5px 10px;
   text-align: center;
   font-size: 1.8em;
+}
+
+thead {
+  background:#011638
+}
+
+thead th {
+  color: whitesmoke;
+}
+
+tbody tr:nth-child(even){
+  background:rgba(205,205,205,0.5)
+}
+
+tbody tr:nth-child(odd){
+  background:rgba(255,255,255,0.5)
 }
 
 .footer {
@@ -157,4 +182,5 @@ th, td {
   color: rgb(67, 163, 230);
   text-decoration: none;
 }
+
 
