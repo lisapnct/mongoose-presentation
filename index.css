@@ -59,6 +59,16 @@ h1 {
     color: #011638;
 }
 
+#who h3 {
+    color: #011638;
+    font-size: 2em;
+}
+
+#who p {
+    color: #011638;
+    font-size: 1.5em;
+}
+
 #who div {
   display: flex;
   justify-content: space-evenly;
