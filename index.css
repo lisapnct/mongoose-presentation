@@ -59,14 +59,14 @@ h1 {
     color: #011638;
 }
 
-#who h3 {
+h3 {
     color: #011638;
     font-size: 2em;
 }
 
 #who p {
     color: #011638;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 #who div {
@@ -98,6 +98,22 @@ h1 {
   width: 370px;
 }
 
+#experience li {
+    font-size: 1.5em;
+    list-style-type: none;
+    text-align: center;
+    color: #011638;
+}
+
+#experience ul {
+    padding: 0px;
+}
+
+#goals {
+    background-color: #F2F2F2;
+    padding: 45px 0px 45px;
+}
+
 
 /* vincent */
 
@@ -108,9 +124,10 @@ table {
 }
 
 th, td {
-  border : 2px solid black;
+  border : 2px solid #011638;
   padding: 5px 10px;
   text-align: center;
+  font-size: 1.8em;
 }
 
 .footer {
@@ -140,3 +157,4 @@ th, td {
   color: rgb(67, 163, 230);
   text-decoration: none;
 }
+
