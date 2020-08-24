@@ -1,9 +1,17 @@
 /*lisa*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
 html, body {
     margin: 0;
     padding: 0;
   }
+
+body {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
 
 h1 {
     font-size: 9em;
@@ -12,7 +20,7 @@ h1 {
 }
 
 .navbar {
-    background-color:gray;
+    background-color:#011638;
     padding: 14px 0;
   }
 
@@ -38,7 +46,17 @@ h1 {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 75px 0;
+  padding: 75px 0px 50px 0px;
+}
+
+#who {
+    background-color: #F2F2F2;
+}
+
+#who h1 {
+    margin: 0;
+    padding: 80px 0px 40px 0px;
+    color: #011638;
 }
 
 #who div {
@@ -55,7 +73,7 @@ h1 {
 
 .container img {
   border-radius: 50%;
-  width: 150px;
+  width: 200px;
 }
 
 #experience div {
